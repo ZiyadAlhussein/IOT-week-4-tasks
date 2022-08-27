@@ -1,6 +1,6 @@
 # IOT-week-4-tasks
 
-**Task 1:POST and GET from database (Temperature and Humidity)**
+**Task 3:POST and GET from database (Temperature and Humidity)**
 
 **1. you need the following parts:**
    
