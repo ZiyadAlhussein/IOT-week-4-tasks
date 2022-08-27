@@ -5,9 +5,13 @@
 **1. you need the following parts:**
    
    i. ESP32 development board
+   
    ii. DHT22 or DHT11 Temperature and Humidity Sensor
+   
    iii. 4.7k Ohm Resistor
+   
    iv. Breadboard
+   
    v. Jumper wires
    
    ![image](https://user-images.githubusercontent.com/108147030/187028334-dcf0e428-e0cb-4d53-9789-9b32502c2a5f.png)
@@ -15,6 +19,7 @@
 **2. For the circuit diagram you need to wire it as shown below:**
    
    ![image](https://user-images.githubusercontent.com/108147030/187028372-953253ac-4908-4378-a874-384ff60a6226.png)
+   
 **3. Installing Libraries**
 
   1) Installing the DHT sensor library:
@@ -22,9 +27,13 @@
   To read from the DHT sensor using Arduino IDE, you need to install the DHT sensor library(https://github.com/adafruit/DHT-sensor-library). Follow the next steps to install the library.
 
 i. download the DHT Sensor library. You should have a .zip folder in your Downloads folder
+
 ii. Unzip the .zip folder and you should get DHT-sensor-library-master folder
+
 iii. Rename your folder from DHT-sensor-library-master to DHT_sensor
+
 iv. Move the DHT_sensor folder to your Arduino IDE installation libraries folder
+
 v. Finally, re-open your Arduino IDE
   
   2) Installing the Adafruit Unified Sensor Driver
@@ -32,9 +41,13 @@ v. Finally, re-open your Arduino IDE
    You also need to install the Adafruit Unified Sensor Driver library to work with the DHT sensor (https://github.com/adafruit/Adafruit_Sensor). Follow the next steps to install the library:
    
 i. download the Adafruit Unified Sensor library. You should have a .zip folder in your Downloads folder
+
 ii. Unzip the .zip folder and you should get Adafruit_sensor-master folder
+
 iii. Rename your folder from Adafruit_sensor-master to Adafruit_sensor
+
 iv. Move the Adafruit_sensor folder to your Arduino IDE installation libraries folder
+
 v. Finally, re-open your Arduino IDE
 
   3) Installing the ESPAsyncWebServer library
@@ -42,9 +55,13 @@ v. Finally, re-open your Arduino IDE
 Follow the next steps to install the ESPAsyncWebServer (https://github.com/me-no-dev/ESPAsyncWebServer) library:
    
 i. download the ESPAsyncWebServer library. You should have a .zip folder in your Downloads folder
+
 ii. Unzip the .zip folder and you should get ESPAsyncWebServer-master folder
+
 iii. Rename your folder from ESPAsyncWebServer-master to ESPAsyncWebServer
+
 iv. Move the ESPAsyncWebServer folder to your Arduino IDE installation libraries folder
+
 v. Finally, re-open your Arduino IDE
 
   4) Installing the Async TCP Library for ESP32
@@ -52,9 +69,13 @@ v. Finally, re-open your Arduino IDE
 The ESPAsyncWebServer (https://github.com/me-no-dev/ESPAsyncWebServer) library requires the AsyncTCP (https://github.com/me-no-dev/AsyncTCP) library to work. Follow the next steps to install that library:
    
 i. download the AsyncTCP library. You should have a .zip folder in your Downloads folder
+
 ii. Unzip the .zip folder and you should get AsyncTCP-master folder
+
 iii. Rename your folder from AsyncTCP-master to AsyncTCP
+
 iv. Move the AsyncTCP folder to your Arduino IDE installation libraries folder
+
 v. Finally, re-open your Arduino IDE
 
 **4. Open your Arduino IDE and copy the following code**
